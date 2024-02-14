@@ -43,7 +43,7 @@ public class TestCorporateAmerica {
      staff.setAge(20);
      staff.setID(10);
      staff.setLocation("Los Angeles, California");
-     assertEquals("Test", staff.getName());
+     assertEquals("Testo Testen", staff.getName());
      assertEquals("Staff", staff.getPosition());
      assertEquals(20, staff.getAge());
      assertEquals(10, staff.getID());
@@ -54,12 +54,12 @@ public class TestCorporateAmerica {
      contractor.setPosition("contractor");
      contractor.setAge(32);
      contractor.setID(58);
-     contractor.setLocation("Sacramento, Caifornia");
+     contractor.setLocation("Sacramento, California");
      assertEquals("Testim Tester", contractor.getName());
-     assertEquals("contractor", contractor.getPosition());
+     assertEquals("Contractor", contractor.getPosition());
      assertEquals(32, contractor.getAge());
      assertEquals(58, contractor.getID());
-     assertEquals("Sacramento, Caifornia", contractor.getLocation());
+     assertEquals("Sacramento, California", contractor.getLocation());
      assertEquals("Testim Tester is performing his given task.", contractor.work());
      assertEquals("Testim Tester is resting.", contractor.rest());
 
